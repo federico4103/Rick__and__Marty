@@ -13,7 +13,7 @@ export const addFav = (character) => {
   try {
         const {data} = await axios.post (ENDPOINT, character);
         return dispatch ({
-          type: "ADD_FAV";
+          type: "ADD_FAV",
           payload: data,
         })
   } catch (error) {

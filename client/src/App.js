@@ -28,7 +28,7 @@ function App() {
     const {access} = (await axios (URL + `?email=${email}&password = ${password}`)).data 
     setAccess (access);
    access && navigate("/home")
-  } catch (error){
+  } catch (error){ 
      console.log(error.message)
   }
 

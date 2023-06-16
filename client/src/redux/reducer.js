@@ -6,7 +6,7 @@ import {FILTER, ORDER} from "./types";
 
 const initialState = {
   myFavorites: [], // que redenrizo/muestro
-  allCharacters: [] //todos los fav
+  allCharacters: [], //todos los fav
   errors:false
 }
 
